@@ -1,0 +1,10 @@
+<svg viewBox="0 0 620 120" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(20,60)">
+    <polygon points="20,0 10,17.3 -10,17.3 -20,0 -10,-17.3 10,-17.3" transform="translate(20,0) scale(1.15)" fill="none" stroke="#0B1B2B" stroke-width="4.5" stroke-linejoin="round"/>
+    <polygon points="20,0 10,17.3 -10,17.3 -20,0 -10,-17.3 10,-17.3" transform="translate(54.5,0) scale(1.15)" fill="#1E56E8" stroke="#1E56E8" stroke-width="4.5" stroke-linejoin="round"/>
+    <polygon points="20,0 10,17.3 -10,17.3 -20,0 -10,-17.3 10,-17.3" transform="translate(89,0) scale(1.15)" fill="none" stroke="#0B1B2B" stroke-width="4.5" stroke-linejoin="round"/>
+  </g>
+  <g font-family="'Space Grotesk','Inter','Segoe UI',Arial,sans-serif" fill="#0B1B2B">
+    <text x="150" y="74" font-size="44" font-weight="700" letter-spacing="-1">Polymer<tspan font-weight="400" fill="#1E56E8">Trade</tspan></text>
+  </g>
+</svg>
