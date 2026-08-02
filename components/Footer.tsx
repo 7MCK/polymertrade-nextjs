@@ -12,7 +12,7 @@ export default function Footer() {
               <PolymerTradeMark size={28} dark />
               <PolymerTradeWordmark dark size={18} />
             </Link>
-            <p>The digital marketplace for the entire polymer value chain — monomers, base oils, virgin resin, certified recycled polymer and engineered compounds. Every grade. One market.</p>
+            <p>The digital marketplace for the entire polymer value chain: monomers, base oils, virgin resin, certified recycled polymer and engineered compounds. Every grade. One market.</p>
           </div>
           <div className="footer-col">
             <h4>Product Lines</h4>
@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <div className="footer-copy">© {new Date().getFullYear()} PolymerTrade.com — Every grade. One market.</div>
+          <div className="footer-copy">© {new Date().getFullYear()} PolymerTrade.com. Every grade. One market.</div>
           <div className="footer-social">
             <a href="https://www.linkedin.com/company/polymertrade" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://x.com/polymertrade" target="_blank" rel="noopener noreferrer">X</a>

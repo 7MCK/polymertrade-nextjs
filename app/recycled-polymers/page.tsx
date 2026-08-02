@@ -4,9 +4,9 @@ import { getProductLine } from '../../lib/product-lines'
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/recycled-polymers/' },
-  title: 'Recycled Polymers — Circular Resin with Certified Content',
+  title: 'Recycled Polymers: Circular Resin with Certified Content',
   description:
-    'PCR and PIR grades with recycled-content certification on PolymerTrade. rPET, rHDPE, rLDPE, rPP, rPS — ISCC PLUS, GRS and EuCertPlast certified, with food-contact grades flagged.',
+    'PCR and PIR grades with recycled-content certification on PolymerTrade. rPET, rHDPE, rLDPE, rPP and rPS, ISCC PLUS, GRS and EuCertPlast certified, with food-contact grades flagged.',
 }
 
 export default function Page() {

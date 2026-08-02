@@ -26,7 +26,7 @@ export default function ForSellersPage() {
             <div className="info-card">
               <div className="card-icon">🌍</div>
               <h3>Global reach</h3>
-              <p>Reach verified buyers across the full downstream chain — from converters to compounders to distributors.</p>
+              <p>Reach verified buyers across the full downstream chain, from converters to compounders to distributors.</p>
             </div>
             <div className="info-card">
               <div className="card-icon">✅</div>
@@ -51,7 +51,7 @@ export default function ForSellersPage() {
             <div className="info-card">
               <div className="card-icon">🔗</div>
               <h3>Provable claims</h3>
-              <p>Digital product passports let your buyers verify your certification claims instantly — no back-and-forth.</p>
+              <p>Digital product passports let your buyers verify your certification claims instantly, with no back-and-forth.</p>
             </div>
           </div>
         </div>

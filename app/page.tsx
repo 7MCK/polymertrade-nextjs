@@ -6,9 +6,9 @@ import { productLines } from '../lib/product-lines'
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/' },
-  title: 'PolymerTrade — Every Grade. One Market.',
+  title: 'PolymerTrade: Every Grade. One Market.',
   description:
-    'The marketplace for the entire polymer value chain. Virgin resin, certified recycled polymer, compounds, monomers and base oils — traded between verified counterparties, with transparent pricing and secure settlement.',
+    'The marketplace for the entire polymer value chain. Virgin resin, certified recycled polymer, compounds, monomers and base oils, traded between verified counterparties, with transparent pricing and secure settlement.',
 }
 
 const pillars = [
@@ -43,7 +43,7 @@ export default function Home() {
           <div>
             <p className="section-label">The Polymer Marketplace</p>
             <h1>Every grade.<br /><span>One market.</span></h1>
-            <p>The marketplace for the entire polymer value chain. Virgin resin, certified recycled polymer, compounds, monomers and base oils — traded between verified counterparties, with transparent pricing and secure settlement.</p>
+            <p>The marketplace for the entire polymer value chain. Virgin resin, certified recycled polymer, compounds, monomers and base oils, traded between verified counterparties, with transparent pricing and secure settlement.</p>
             <div className="hero-btns">
               <a href="#contact" className="btn-primary">Join the marketplace</a>
               <Link href="/prices" className="btn-secondary">View live prices</Link>
@@ -113,7 +113,7 @@ export default function Home() {
         <div className="section-inner">
           <p className="section-label" style={{ color: 'var(--blue-bright)' }}>The Opportunity</p>
           <h2 className="section-title" style={{ color: '#fff' }}>A market still running on phone calls</h2>
-          <p className="section-sub" style={{ color: '#A9B7C9' }}>Placeholder figures — to be replaced with sourced market data ahead of launch.</p>
+          <p className="section-sub" style={{ color: '#A9B7C9' }}>Placeholder figures, to be replaced with sourced market data ahead of launch.</p>
           <div className="stats-grid">
             {[
               { num: '$1.1T+', label: 'Global polymer & petrochemicals market size' },
@@ -171,7 +171,7 @@ export default function Home() {
           <div className="contact-inner">
             <div className="contact-info">
               <h2>Get in touch</h2>
-              <p>Whether you&apos;re a producer, processor, compounder, buyer or potential investor — we want to hear from you.</p>
+              <p>Whether you&apos;re a producer, processor, compounder, buyer or potential investor, we want to hear from you.</p>
               <div className="contact-detail"><span>✉️</span><span>hello@polymertrade.com</span></div>
               <div className="contact-detail"><span>🌍</span><span>Global operations</span></div>
               <div className="contact-detail"><span>🚀</span><span>Platform launching 2026</span></div>

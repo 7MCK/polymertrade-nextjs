@@ -23,7 +23,7 @@ export default function TermsPage() {
           <p>By accessing or using the PolymerTrade website or marketplace, you agree to be bound by these Terms of Service. If you do not agree, do not use the platform.</p>
 
           <h2 style={{ marginTop: '32px' }}>2. Nature of the platform</h2>
-          <p>PolymerTrade is a B2B marketplace facilitating physical trade of polymer-chain materials — monomers, base oils, virgin polymers, recycled polymers and compounds — between verified industrial counterparties. PolymerTrade is not a financial exchange and does not itself buy, sell or take title to traded material unless expressly stated.</p>
+          <p>PolymerTrade is a B2B marketplace facilitating physical trade of polymer-chain materials (monomers, base oils, virgin polymers, recycled polymers and compounds) between verified industrial counterparties. PolymerTrade is not a financial exchange and does not itself buy, sell or take title to traded material unless expressly stated.</p>
 
           <h2 style={{ marginTop: '32px' }}>3. Verification requirements</h2>
           <p>Access to trade on PolymerTrade requires successful completion of KYC (Know Your Customer) verification. PolymerTrade may suspend or terminate access for counterparties who fail verification or violate these terms.</p>

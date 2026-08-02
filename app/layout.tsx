@@ -5,22 +5,22 @@ import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
   title: {
-    default: 'PolymerTrade — Every Grade. One Market.',
+    default: 'PolymerTrade: Every Grade. One Market.',
     template: '%s | PolymerTrade',
   },
   description:
-    'PolymerTrade is the digital marketplace for the entire polymer value chain — monomers, base oils, virgin resin, certified recycled polymer and engineered compounds. Verified counterparties, transparent pricing, secure settlement.',
+    'PolymerTrade is the digital marketplace for the entire polymer value chain, covering monomers, base oils, virgin resin, certified recycled polymer and engineered compounds. Verified counterparties, transparent pricing, secure settlement.',
   metadataBase: new URL('https://www.polymertrade.com'),
   openGraph: {
     siteName: 'PolymerTrade',
     type: 'website',
-    title: 'PolymerTrade — Every Grade. One Market.',
+    title: 'PolymerTrade: Every Grade. One Market.',
     description:
-      'The marketplace for the entire polymer value chain. Virgin resin, certified recycled polymer, compounds, monomers and base oils — traded between verified counterparties.',
+      'The marketplace for the entire polymer value chain. Virgin resin, certified recycled polymer, compounds, monomers and base oils, traded between verified counterparties.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PolymerTrade — Every Grade. One Market.',
+    title: 'PolymerTrade: Every Grade. One Market.',
     description: 'The marketplace for the entire polymer value chain.',
   },
   icons: {

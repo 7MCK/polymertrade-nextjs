@@ -3,9 +3,9 @@ import { samplePrices, indexCards } from '../../lib/price-data'
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/prices/' },
-  title: 'Live Prices — Polymer Market Indices',
+  title: 'Live Prices: Polymer Market Indices',
   description:
-    'Illustrative market indices and grade-level pricing across virgin polymers, recycled polymers, compounds, monomers and base oils. Sample data — live feed to be wired in ahead of launch.',
+    'Illustrative market indices and grade-level pricing across virgin polymers, recycled polymers, compounds, monomers and base oils. This is sample data, with a live feed to be wired in ahead of launch.',
 }
 
 export default function PricesPage() {
@@ -16,14 +16,14 @@ export default function PricesPage() {
           <p className="badge-line">Live Prices</p>
           <h1>Polymer market indices</h1>
           <p className="desc">
-            Transparent pricing is one of PolymerTrade&apos;s five founding pillars. The figures below are illustrative/sample data for now — structured so a live market-data feed can be wired in ahead of launch.
+            Transparent pricing is one of PolymerTrade&apos;s five founding pillars. The figures below are illustrative/sample data for now, structured so a live market-data feed can be wired in ahead of launch.
           </p>
         </div>
       </div>
 
       <section className="content-section">
         <div className="content-inner">
-          <span className="badge-soon">Sample data — illustrative only</span>
+          <span className="badge-soon">Sample data (illustrative only)</span>
           <h2>Market indices by product line</h2>
           <div className="index-cards price-index-grid">
             {indexCards.map((c) => (

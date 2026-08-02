@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/how-it-works/' },
   title: 'How It Works',
   description:
-    'How PolymerTrade works: verify, list or discover, agree terms, and settle securely — for the entire polymer value chain.',
+    'How PolymerTrade works: verify, list or discover, agree terms, and settle securely for the entire polymer value chain.',
 }
 
 export default function HowItWorksPage() {
@@ -15,7 +15,7 @@ export default function HowItWorksPage() {
         <div className="page-hero-inner">
           <p className="badge-line">How It Works</p>
           <h1>From listing to settlement</h1>
-          <p className="desc">A structured process built for the realities of the polymer trade — verified counterparties, certified material and secure settlement at every stage.</p>
+          <p className="desc">A structured process built for the realities of the polymer trade: verified counterparties, certified material and secure settlement at every stage.</p>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ export default function HowItWorksPage() {
             <div className="step-3">
               <div className="step-num">5</div>
               <h3>Trace the claim</h3>
-              <p>Digital product passports carry certification proof — recycled content, origin, TDS/CoA — from reactor to converter, auditable on demand.</p>
+              <p>Digital product passports carry certification proof (recycled content, origin, TDS/CoA) from reactor to converter, auditable on demand.</p>
             </div>
             <div className="step-3">
               <div className="step-num">6</div>

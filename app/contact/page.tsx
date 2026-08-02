@@ -4,7 +4,7 @@ import ContactForm from '../../components/ContactForm'
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/contact/' },
   title: 'Contact',
-  description: 'Get in touch with PolymerTrade — producers, processors, compounders, buyers and investors welcome.',
+  description: 'Get in touch with PolymerTrade: producers, processors, compounders, buyers and investors welcome.',
 }
 
 export default function ContactPage() {
@@ -14,7 +14,7 @@ export default function ContactPage() {
         <div className="page-hero-inner">
           <p className="badge-line">Contact</p>
           <h1>Get in touch</h1>
-          <p className="desc">Whether you&apos;re a producer, processor, compounder, buyer, logistics partner or potential investor — we want to hear from you.</p>
+          <p className="desc">Whether you&apos;re a producer, processor, compounder, buyer, logistics partner or potential investor, we want to hear from you.</p>
         </div>
       </div>
 

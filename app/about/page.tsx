@@ -29,9 +29,9 @@ const breadcrumbSchema = {
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/about/' },
-  title: 'About PolymerTrade — The Marketplace for the Whole Polymer Chain',
+  title: 'About PolymerTrade: The Marketplace for the Whole Polymer Chain',
   description:
-    'PolymerTrade is the digital marketplace for the entire polymer value chain — monomers, base oils, virgin resin, certified recycled polymer and engineered compounds. Verified counterparties, transparent pricing, secure settlement.',
+    'PolymerTrade is the digital marketplace for the entire polymer value chain, covering monomers, base oils, virgin resin, certified recycled polymer and engineered compounds. Verified counterparties, transparent pricing, secure settlement.',
 }
 
 export default function AboutPage() {
@@ -43,7 +43,7 @@ export default function AboutPage() {
           <p className="badge-line">About PolymerTrade</p>
           <h1>The marketplace for the<br />whole polymer chain</h1>
           <p className="desc">
-            For producers, processors, compounders and buyers across the polymer industry, PolymerTrade is the digital marketplace that covers the entire value chain — monomers, base oils, virgin polymers, certified recycled resin and engineered compounds — with verified counterparties, transparent pricing and secure settlement on every trade.
+            For producers, processors, compounders and buyers across the polymer industry, PolymerTrade is the digital marketplace that covers the entire value chain: monomers, base oils, virgin polymers, certified recycled resin and engineered compounds, with verified counterparties, transparent pricing and secure settlement on every trade.
           </p>
           <a href="/contact" className="btn-primary">Get in Touch</a>
         </div>
@@ -61,7 +61,7 @@ export default function AboutPage() {
             <div className="info-card">
               <div className="card-icon">🔭</div>
               <h3>Vision</h3>
-              <p>Every tonne of polymer — virgin or circular — traceable from reactor to converter.</p>
+              <p>Every tonne of polymer, virgin or circular, traceable from reactor to converter.</p>
             </div>
             <div className="info-card">
               <div className="card-icon">🤝</div>
@@ -76,7 +76,7 @@ export default function AboutPage() {
         <div className="content-inner">
           <h2>What PolymerTrade Does</h2>
           <p>
-            PolymerTrade is the marketplace for the whole polymer chain — monomers, base oils, virgin resin, recycled polymer and compounds — with every counterparty verified and every trade settled securely.
+            PolymerTrade is the marketplace for the whole polymer chain: monomers, base oils, virgin resin, recycled polymer and compounds, with every counterparty verified and every trade settled securely.
           </p>
           <p>
             Unlike listing portals and broker networks, PolymerTrade brings institutional-grade trust to a market that still runs on phone calls and faith. Datasheets, certificates of analysis and recycled-content certification (ISCC PLUS, GRS, EuCertPlast) travel with every trade. Digital product passports carry that proof from reactor to converter.
@@ -91,13 +91,13 @@ export default function AboutPage() {
         <div className="content-inner">
           <h2>The Problem We Solve</h2>
           <p>
-            The polymer industry spans monomer producers, resin manufacturers, recyclers, compounders and thousands of downstream converters — yet most of that trade is negotiated by phone, priced opaquely, and documented inconsistently. Recycled-content claims are hard to verify. Certification data lives in email attachments, not in the trade record.
+            The polymer industry spans monomer producers, resin manufacturers, recyclers, compounders and thousands of downstream converters, yet most of that trade is negotiated by phone, priced opaquely, and documented inconsistently. Recycled-content claims are hard to verify. Certification data lives in email attachments, not in the trade record.
           </p>
           <p>
-            At the same time, regulation is tightening. Extended Producer Responsibility (EPR) schemes, REACH compliance and food-contact approvals (EFSA, FDA) all require documented, auditable claims. Buyers of recycled polymer increasingly need proof — not assurances — that recycled content is real and certified.
+            At the same time, regulation is tightening. Extended Producer Responsibility (EPR) schemes, REACH compliance and food-contact approvals (EFSA, FDA) all require documented, auditable claims. Buyers of recycled polymer increasingly need proof, not assurances, that recycled content is real and certified.
           </p>
           <p>
-            PolymerTrade solves this by building the verification and documentation infrastructure the next decade of polymer trade requires — one marketplace, covering the full chain, with proof attached to every trade.
+            PolymerTrade solves this by building the verification and documentation infrastructure the next decade of polymer trade requires: one marketplace, covering the full chain, with proof attached to every trade.
           </p>
         </div>
       </section>

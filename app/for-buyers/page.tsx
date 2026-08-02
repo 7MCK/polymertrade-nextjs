@@ -51,7 +51,7 @@ export default function ForBuyersPage() {
             <div className="info-card">
               <div className="card-icon">🔗</div>
               <h3>Digital product passports</h3>
-              <p>Carry certification proof from reactor to converter — auditable on demand for your own customers.</p>
+              <p>Carry certification proof from reactor to converter, auditable on demand for your own customers.</p>
             </div>
           </div>
         </div>

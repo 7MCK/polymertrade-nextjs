@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/privacy/' },
   title: 'Privacy Policy',
-  description: 'PolymerTrade privacy policy — how we collect, use and protect your data.',
+  description: 'PolymerTrade privacy policy: how we collect, use and protect your data.',
 }
 
 export default function PrivacyPage() {

@@ -21,9 +21,9 @@ export default function VerificationPage() {
       <section className="content-section">
         <div className="content-inner">
           <h2>Counterparty verification (KYC)</h2>
-          <p>Every producer, processor, compounder, trader and buyer on PolymerTrade completes Know Your Customer (KYC) verification before their first trade. This confirms company identity, ownership and legal standing — no anonymous listings, no ghost cargoes.</p>
+          <p>Every producer, processor, compounder, trader and buyer on PolymerTrade completes Know Your Customer (KYC) verification before their first trade. This confirms company identity, ownership and legal standing: no anonymous listings, no ghost cargoes.</p>
           <h2 style={{ marginTop: '40px' }}>Certified material, proven claims</h2>
-          <p>Datasheets, certificates of analysis and recycled-content certification are attached directly to the trade record — not left in an email attachment. Buyers can verify a claim before they commit, and carry that proof forward to their own customers.</p>
+          <p>Datasheets, certificates of analysis and recycled-content certification are attached directly to the trade record, not left in an email attachment. Buyers can verify a claim before they commit, and carry that proof forward to their own customers.</p>
         </div>
       </section>
 
@@ -38,7 +38,7 @@ export default function VerificationPage() {
             </div>
             <div className="info-card">
               <div className="card-icon">♻️</div>
-              <h3>GRS — Global Recycled Standard</h3>
+              <h3>GRS: Global Recycled Standard</h3>
               <p>Verifies recycled input content and tracks it through the full supply chain, alongside social and environmental practice criteria.</p>
             </div>
             <div className="info-card">
@@ -68,7 +68,7 @@ export default function VerificationPage() {
       <section className="content-section">
         <div className="content-inner">
           <h2>Digital product passports</h2>
-          <p>Every trade on PolymerTrade can carry a digital product passport — a permanent, auditable record that travels with the material from reactor to converter. It carries origin, certification status, recycled-content proof and chain-of-custody data, so the next buyer in the chain can verify the claim instantly rather than take it on faith.</p>
+          <p>Every trade on PolymerTrade can carry a digital product passport: a permanent, auditable record that travels with the material from reactor to converter. It carries origin, certification status, recycled-content proof and chain-of-custody data, so the next buyer in the chain can verify the claim instantly rather than take it on faith.</p>
           <h2 style={{ marginTop: '40px' }}>Secure settlement</h2>
           <p>Trade to delivery, PolymerTrade handles secure settlement, logistics coordination and customs/compliance support so counterparties can focus on the trade itself, not the paperwork around it.</p>
         </div>

@@ -51,7 +51,7 @@ export default function ProductLinePage({ line }: { line: ProductLine }) {
       <section className="content-section alt">
         <div className="content-inner">
           <h2>Certifications &amp; verification</h2>
-          <p>Certified claims, attached to the trade — not left to a data sheet in an email.</p>
+          <p>Certified claims, attached to the trade, not left to a data sheet in an email.</p>
           <div className="info-grid">
             {line.certifications.map((c) => (
               <div key={c} className="info-card">
