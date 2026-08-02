@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import SchemaMarkup from '../../components/SchemaMarkup'
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/for-sellers/' },
@@ -7,9 +8,20 @@ export const metadata: Metadata = {
     'List virgin resin, certified recycled polymer, compounds, monomers and base oils to a global network of verified buyers on PolymerTrade.',
 }
 
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'For Sellers | PolymerTrade',
+  description:
+    'List virgin resin, certified recycled polymer, compounds, monomers and base oils to a global network of verified buyers on PolymerTrade.',
+  url: 'https://www.polymertrade.com/for-sellers/',
+  isPartOf: { '@type': 'WebSite', name: 'PolymerTrade', url: 'https://www.polymertrade.com' },
+}
+
 export default function ForSellersPage() {
   return (
     <>
+      <SchemaMarkup schemas={[webPageSchema]} />
       <div className="page-hero">
         <div className="page-hero-inner">
           <p className="badge-line">For Sellers</p>

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { mockListings } from '../../lib/mock-listings'
+import SchemaMarkup from '../../components/SchemaMarkup'
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/marketplace/' },
@@ -8,9 +9,29 @@ export const metadata: Metadata = {
     'Browse sample listings and RFQs across virgin polymers, recycled polymers, compounds, monomers and base oils. Illustrative data, with the live marketplace coming at launch.',
 }
 
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'PolymerTrade Marketplace: Listings & RFQs',
+  description:
+    'Browse listings and RFQs across virgin polymers, recycled polymers, compounds, monomers and base oils.',
+  url: 'https://www.polymertrade.com/marketplace/',
+  isPartOf: { '@type': 'WebSite', name: 'PolymerTrade', url: 'https://www.polymertrade.com' },
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'PolymerTrade', item: 'https://www.polymertrade.com' },
+    { '@type': 'ListItem', position: 2, name: 'Marketplace', item: 'https://www.polymertrade.com/marketplace/' },
+  ],
+}
+
 export default function MarketplacePage() {
   return (
     <>
+      <SchemaMarkup schemas={[webPageSchema, breadcrumbSchema]} />
       <div className="page-hero">
         <div className="page-hero-inner">
           <p className="badge-line">Marketplace</p>

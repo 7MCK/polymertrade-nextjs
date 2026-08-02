@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import SchemaMarkup from '../../components/SchemaMarkup'
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/verification/' },
@@ -7,9 +8,29 @@ export const metadata: Metadata = {
     'How PolymerTrade verifies counterparties and certifies material claims: KYC, ISCC PLUS, GRS, EuCertPlast and digital product passports.',
 }
 
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Verification & Trust | PolymerTrade',
+  description:
+    'How PolymerTrade verifies counterparties and certifies material claims: KYC, ISCC PLUS, GRS, EuCertPlast and digital product passports.',
+  url: 'https://www.polymertrade.com/verification/',
+  isPartOf: { '@type': 'WebSite', name: 'PolymerTrade', url: 'https://www.polymertrade.com' },
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'PolymerTrade', item: 'https://www.polymertrade.com' },
+    { '@type': 'ListItem', position: 2, name: 'Verification & Trust', item: 'https://www.polymertrade.com/verification/' },
+  ],
+}
+
 export default function VerificationPage() {
   return (
     <>
+      <SchemaMarkup schemas={[webPageSchema, breadcrumbSchema]} />
       <div className="page-hero">
         <div className="page-hero-inner">
           <p className="badge-line">Verification &amp; Trust</p>

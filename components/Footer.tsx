@@ -31,6 +31,7 @@ export default function Footer() {
               <li><Link href="/for-buyers">For Buyers</Link></li>
               <li><Link href="/for-sellers">For Sellers</Link></li>
               <li><Link href="/verification">Verification &amp; Trust</Link></li>
+              <li><Link href="/guides">Guides</Link></li>
             </ul>
           </div>
           <div className="footer-col">

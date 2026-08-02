@@ -24,6 +24,7 @@ export default function Nav() {
             </div>
           </li>
           <li><Link href="/prices">Live Prices</Link></li>
+          <li><Link href="/guides">Guides</Link></li>
           <li><Link href="/how-it-works">How It Works</Link></li>
           <li><Link href="/verification">Verification</Link></li>
           <li><Link href="/about">About</Link></li>

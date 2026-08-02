@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import SchemaMarkup from '../../components/SchemaMarkup'
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.polymertrade.com/how-it-works/' },
@@ -8,9 +9,20 @@ export const metadata: Metadata = {
     'How PolymerTrade works: verify, list or discover, agree terms, and settle securely for the entire polymer value chain.',
 }
 
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'How It Works | PolymerTrade',
+  description:
+    'How PolymerTrade works: verify, list or discover, agree terms, and settle securely for the entire polymer value chain.',
+  url: 'https://www.polymertrade.com/how-it-works/',
+  isPartOf: { '@type': 'WebSite', name: 'PolymerTrade', url: 'https://www.polymertrade.com' },
+}
+
 export default function HowItWorksPage() {
   return (
     <>
+      <SchemaMarkup schemas={[webPageSchema]} />
       <div className="page-hero">
         <div className="page-hero-inner">
           <p className="badge-line">How It Works</p>

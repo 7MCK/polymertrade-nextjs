@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "polymertrade.com" }],
+      "destination": "https://www.polymertrade.com/:path*",
+      "permanent": true
+    }
+  ]
+}
