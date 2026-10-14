@@ -172,6 +172,7 @@ section { padding: 80px 40px; }
 .contact-info h2 { font-size: 30px; color: var(--ink); margin-bottom: 16px; }
 .contact-info p { font-size: 15px; color: var(--slate); line-height: 1.7; margin-bottom: 28px; }
 .contact-detail { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; font-size: 14px; color: var(--slate); }
+.contact-detail svg { flex-shrink: 0; }
 .contact-form { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 32px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
